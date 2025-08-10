@@ -15,6 +15,7 @@
             box-sizing: border-box;
             font-family: 'Times New Roman', Times, serif;
             color: black;
+           
             
 
         }
@@ -27,11 +28,18 @@
             background-color: rgb(24, 26, 26);
             position: fixed;
             color: white;
+			margin-right:40px;
+
+        }
+        html,body{
+            overflow-x: hidden;
         }
         .one{
-            width: 25%;
-            margin-left: -40px;
-            margin-right: -40px;
+           
+            margin-left:-31px;
+           
+           margin-right: 700px;
+           
         }
 
         .profile {
@@ -96,7 +104,7 @@
         .about {
             position: relative;
             top: 800px;
-            left: 300px;
+            margin-left: 300px;
             width: 1000px;
             margin-top: -120px;
         }
@@ -153,7 +161,7 @@
         }
         #projectimg{
             width:400px; height:300px ;
-            border-bottom-right-radius: 50px;
+            border-radius: 50px;
             position: relative;
             top: 50px;
         }
@@ -162,6 +170,9 @@
             position: relative;
             left: 30px;
             top: 40px;
+            border-spacing: 0px 10px;
+            font-size: 20px;
+            letter-spacing: 0.7px;
         }
         #content{
             border: none;
@@ -174,12 +185,13 @@
             position: relative;
             left: 530px;
             top: -160px;
+            
         }
 
         #power {
             text-decoration: none;
             color: white;
-            letter-spacing: 1px;
+            letter-spacing: 1.7px;
             text-align: left;
         }
 
@@ -208,7 +220,7 @@
   }
 @keyframes typing{
     from{width: 0;}
-    to{width: 18.5ch;}
+    to{width: 19.5ch;}
 }
 @keyframes blink{
     50%{border-color: transparent;}
@@ -277,7 +289,7 @@
                 </td>
             </tr>
             <tr>
-            <td><i class="fa-solid fa-book" style="margin-right: 6px;color: white"></i>
+            <td><i class="fa-solid fa-book" style="margin-right: 5px;color: white"></i>
                     <a href="#Resume" id="power"> Resume</a>
                 </td>
             </tr>
@@ -296,11 +308,12 @@
     </div>
     
     <div class="one">
-    <div class="Home" id="home">
+    <div class="Home" id="home" style="height: 400px
+	;">
         <img src="/images/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg"
-            style="margin-top: -60px; position:relative;margin-left: 300px; width: 1100px;height: 700px;">
+            style="margin-top: -60px; position:relative;margin-left: 290px; width: 1090px;height: 760px;">
         <h1 
-            style="margin-left: -100px; margin-top: -600px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;position: relative; left: 440px; width: 500px; font-size: 50px; top: 200px; color:white">
+            style="margin-left: -100px; margin-top: -650px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;position: relative; left: 440px; width: 500px; font-size: 50px; top: 200px; color:white">
             Sikkandhar Rajaak</h1>
             <div class="typing" style="position: relative;left: 60px;top: 210px; letter-spacing: 2px;">I'm a Java Developer</div>
 
@@ -366,7 +379,7 @@
             <P style="position: relative; top:20px 
         ; font-size: 40px; left: 20px; " id="hj">Skills</P>
         </h2>
-        <table id="info4">
+        <table id="info4" >
             <br>
             <br>
             <br>
@@ -418,11 +431,23 @@
                 </td>
                 <td>80%</td>
             </tr>
+            <tr>
+                <td>Git and Github-Handling</td>
+            </tr>
+            <tr>
 
+                <td>
+                    <progress value="70" max="100" style="width: 400px; height: 40px;">
+
+                    </progress>
+                </td>
+
+                <td>70%</td>
+            </tr>
 
 
         </table>
-        <table id="sideinfo" style="position: relative; top: -226px;">
+        <table id="sideinfo" style="position: relative; top: -397.4px; font-size: 20px; border-spacing: 0px 10px; letter-spacing: 0.7px;">
             <tr>
                 <td>SpringBoot</td>
             </tr>
@@ -469,6 +494,19 @@
 
                     </progress>
                 </td>
+                <td>70%</td>
+            </tr>
+             <tr>
+                <td>Microservices</td>
+            </tr>
+            <tr>
+
+                <td>
+                    <progress value="70" max="100" style="width: 400px; height: 40px;">
+
+                    </progress>
+                </td>
+
                 <td>70%</td>
             </tr>
         </table>
@@ -567,19 +605,19 @@
         <h1 style="position: relative; top: 100px; font-size: 40px; margin-left: -10px;">Projects</h1>
         <table style="border-spacing: 30px 120px;">
             <tr>
-       <td> <img src="/images/job.jpg" id="projectimg"></td>  <td > <img src="/images/Untitled-design-2-1 (1).png" style="margin-left: 100px;"   id="projectimg"></td> 
+       <td> <a href="https://github.com/rajaak04/Online-Job-Portal"><img src="/images/job.jpg" id="projectimg"></a></td>  <td > <a href="https://github.com/rajaak04/Employee-Management-System"><img src="/images/Employee-Management-System (1).png" style="margin-left: 100px;"   id="projectimg"></a></td> 
             </tr>
             
              <tr>
-       <td> <img src="/images/ChatGPT Image May 25, 2025, 09_08_46 PM.png" id="projectimg"></td>  <td > <img src="/images/OIP.png" style="margin-left: 100px;"   id="projectimg"></td> 
+       <td> <a href="https://github.com/rajaak04/Student-Fee-Report-Management-System"><img src="/images/ChatGPT Image May 25, 2025, 09_08_46 PM.png" id="projectimg"></a></td>  <td > <a href="https://github.com/rajaak04/Weather-Application"> <img src="/images/OIP.png" style="margin-left: 100px;"   id="projectimg"></a></td> 
             </tr>
          </table>
         <h3 style="margin-left: 450px; width: 250px; position:relative; top:-480px
         ; font-size: 27px; left: -320px ;">Online Job Portal</h3>
         <h3 style="margin-left: 430px; width: 450px; position:relative; top:-515px
-        ; font-size: 27px; left: 130px ;">Library Book Management System</h3>
+        ; font-size: 27px; left: 110px ; text-align: center;">Employee Management System</h3>
         <h3 style="margin-left: 350px; width: 550px; position:relative; top:-125px
-        ; font-size: 27px; left: -320px ;">Student Fee Report Management System </h3>
+        ; font-size: 27px; left: -340px ;">Student Fee Report Management System </h3>
         <h3 style="margin-left: 510px; width: 450px; position:relative; top:-155px
         ; font-size: 27px; left: 130px ;">Weather Application</h3>
         
@@ -589,7 +627,7 @@
     </div>
     
 <div id="contact">
-    <h1 style="margin-left: -150px;"> 
+    <h1 style="margin-left: -150px; font-size: 39px;"> 
         Contact
     </h1>
     <div style="margin-left: -150px; margin-top: 70px;" id="content">
@@ -626,8 +664,8 @@
    </label>
    <label style="font-size: 20px;position: relative; top: 30px;">Message
     <br>
-   <textarea cols="99" rows="14" name="message" style="margin-top: 5px;"></textarea></label>
-   <input type="submit" value="Send" style=" width:80px; border-radius: 5px;  padding: 7px; position: relative;top: 30px; left: 400px;">
+   <textarea cols="99" rows="11" name="message" style="margin-top: 5px;"></textarea></label>
+   <input type="submit" value="Send Message" style=" width:140px; border-radius: 5px; background-color: black;color: white;font-size: 16px; padding: 7px; position: relative;top: 40px;cursor: pointer; left: 180px;">
 <p ><span th:text="${message}"></span></p>
    
    </form>        
@@ -641,5 +679,6 @@
        
 
 </body>
+
 
 </html>
